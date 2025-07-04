@@ -1,0 +1,20 @@
+.cabecalho{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    padding-top: 50px;
+    background-image: linear-gradient(rgb(94, 28, 28), rgba(247, 132, 75, 0.426));
+
+    &__titulo{
+        padding-bottom: 20px;
+    }
+
+    &__contagem{
+        padding-bottom: 20px;
+    }
+
+    &__imagem{
+        width: 25%;
+        border-radius: 10%;
+    }
+}

@@ -1,0 +1,17 @@
+.informacao{
+    background-image: linear-gradient(rgba(247, 132, 75, 0.426), rgb(94, 28, 28));
+    height: 180px;
+
+    &__lista{
+        display: flex;
+        gap: 200px;
+        list-style: none;
+        padding: 20px;    
+        margin-left: 300px;
+
+        &__item{
+            text-align: center;
+            margin-top: 50px;
+        }
+    }
+}
