@@ -4,14 +4,45 @@
 
     &__lista{
         display: flex;
-        gap: 200px;
         list-style: none;
-        padding: 20px;    
-        margin-left: 300px;
+        padding: 20px  80px;    
+        margin: 0 auto;
+        border-bottom: 1px solid black;
+        justify-content: space-between;
+        
 
         &__item{
             text-align: center;
             margin-top: 50px;
+            border-top: 1px solid black;
+        }
+    }
+
+    @media (max-width: 640px){
+        height: 320px;
+        &__lista{
+            display: block;
+            margin: 0 auto;
+            
+            &__item{
+                border: 1px solid black;
+                padding: 6px;
+                margin-top: 6px;
+            }
+        }
+    }
+
+    @media (max-width: 1024px){
+        height: 320px;
+        &__lista{
+            display: block;
+            margin: 0 auto;
+            
+            &__item{
+                border: 1px solid black;
+                padding: 6px;
+                margin-top: 6px;
+            }
         }
     }
 }
